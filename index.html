@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>猫カフェ ふにふに</title>
+<style>
+  /* ざっくりとしたリセット */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "Arial", sans-serif; line-height: 1.6; background: #fff; color: #333; }
+
+  header {
+    width: 100%;
+    text-align: center;
+    background: #f7e8d6;
+    padding: 20px;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+
+  /* メインビジュアル */
+  .main-visual {
+    width: 100%;
+    position: relative;
+  }
+  .main-visual img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* セクションタイトル */
+  .section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 40px 0 20px;
+    font-weight: bold;
+  }
+
+  /* How to Enjoy */
+  .howto {
+    text-align: center;
+    padding: 20px;
+  }
+  .howto-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  .howto-box {
+    border: 2px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #fff;
+  }
+
+  /* アクセス部分 */
+  .info-section {
+    padding: 30px;
+    background: #faf6ee;
+  }
+  .info-section p {
+    margin-bottom: 10px;
+  }
+
+  /* 料金表 */
+  .price-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .price-table {
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .price-table th, .price-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #fff;
+  }
+
+  /* フッター予約画像 */
+  .reserve {
+    text-align: center;
+    padding: 40px;
+  }
+  .reserve img {
+    width: 80%;
+    max-width: 400px;
+  }
+
+  /* スマホ向け調整 */
+  @media (max-width: 600px) {
+    header h1 { font-size: 1.6rem; }
+    .howto-box { width: 80%; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>猫カフェ ふにふに</h1>
+  <p>千葉のまったり猫カフェ</p>
+</header>
+
+<!-- メインの大きな画像 -->
+<div class="main-visual">
+  <img src="https://github.com/ps238012/site/tree/main/images" alt="猫カフェ画像" />
+</div>
+
+<!-- How to Enjoy セクション -->
+<div class="section-title">How to Enjoy</div>
+<div class="howto">
+  <img src="https://github.com/ps238012/site/tree/main/images" alt="猫カフェ画像" />
+  <div class="howto-boxes">
+    <div class="howto-box">猫と遊ぶ</div>
+    <div class="howto-box">デートのひとときに</div>
+    <div class="howto-box">カフェとして</div>
+    <div class="howto-box">勉強スペースにも</div>
+  </div>
+</div>
+
+<!-- アクセス情報 -->
+<div class="info-section">
+  <img src="https://github.com/ps238012/site/tree/main/images" alt="猫カフェ画像" style="width:100%; max-width:500px; display:block; margin:auto;" />
+  <p>住所：千葉県東山寺井市夢猫町9-1</p>
+  <p>電話番号：080-XXXX-XXXX</p>
+  <p>営業時間：10:00〜21:00</p>
+  <p>定休日：毎月2日</p>
+  <p>年齢制限：3才から入場可能です。</p>
+</div>
+
+<!-- 料金表 -->
+<div class="price-section">
+  <div class="section-title">料金</div>
+  <table class="price-table">
+    <tr>
+      <th>区分</th>
+      <th>料金</th>
+    </tr>
+    <tr>
+      <td>平日（10分あたり）</td>
+      <td>¥200（税込220）</td>
+    </tr>
+    <tr>
+      <td>土日祝（10分あたり）</td>
+      <td>¥250（税込275）</td>
+    </tr>
+    <tr>
+      <td>最大料金（平日）</td>
+      <td>¥2400（税込2640）</td>
+    </tr>
+    <tr>
+      <td>最大料金（土日祝）</td>
+      <td>¥2700（税込2970）</td>
+    </tr>
+  </table>
+  <p style="margin-top:10px;">別途ドリンクバー ¥350（税込385）</p>
+</div>
+
+<!-- 予約画像 -->
+<div class="reserve">
+  <p>予約はこちらから</p>
+  <img src="https://github.com/ps238012/site/tree/main/images" alt="猫カフェ画像" />
+</div>
+
+</body>
+</html>
